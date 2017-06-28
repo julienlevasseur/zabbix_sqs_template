@@ -25,14 +25,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;SentMessageSize&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;SentMessageSize&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>%</units>
+                    <units/>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -64,7 +64,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesDelayed&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesDelayed&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -103,7 +103,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesSent&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesSent&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -142,14 +142,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfEmptyReceives&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfEmptyReceives&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>GB</units>
+                    <units/>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -181,14 +181,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesVisible&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesVisible&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>GB</units>
+                    <units/>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -220,14 +220,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesNotVisible&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesNotVisible&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>bps</units>
+                    <units/>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -259,7 +259,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesReceived&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesReceived&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
@@ -298,14 +298,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateAgeOfOldestMessage&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateAgeOfOldestMessage&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>ms</units>
+                    <units>s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -337,14 +337,14 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesDeleted&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesDeleted&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     <delay>60</delay>
                     <history>90</history>
                     <trends>365</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
-                    <units>Bytes/Second</units>
+                    <units/>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -391,7 +391,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template AWS SQS:sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateAgeOfOldestMessage&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;].avg(#2)}&gt;86400</expression>
+            <expression>{Template AWS SQS:sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateAgeOfOldestMessage&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;].avg(#2)}&gt;86400</expression>
             <name>Age Of Oldest Message too High on {HOST.NAME}</name>
             <url/>
             <status>0</status>
@@ -410,7 +410,7 @@
             <yaxismax>100.0000</yaxismax>
             <show_work_period>1</show_work_period>
             <show_triggers>1</show_triggers>
-            <type>1</type>
+            <type>0</type>
             <show_legend>1</show_legend>
             <show_3d>0</show_3d>
             <percent_left>0.0000</percent_left>
@@ -429,7 +429,7 @@
                     <type>0</type>
                     <item>
                         <host>Template AWS SQS</host>
-                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;SentMessageSize&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;SentMessageSize&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -461,7 +461,7 @@
                     <type>0</type>
                     <item>
                         <host>Template AWS SQS</host>
-                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesDelayed&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesDelayed&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -493,7 +493,7 @@
                     <type>0</type>
                     <item>
                         <host>Template AWS SQS</host>
-                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesSent&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesSent&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -525,7 +525,7 @@
                     <type>0</type>
                     <item>
                         <host>Template AWS SQS</host>
-                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfEmptyReceives&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfEmptyReceives&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
@@ -538,7 +538,7 @@
             <yaxismax>100.0000</yaxismax>
             <show_work_period>1</show_work_period>
             <show_triggers>1</show_triggers>
-            <type>1</type>
+            <type>0</type>
             <show_legend>1</show_legend>
             <show_3d>0</show_3d>
             <percent_left>0.0000</percent_left>
@@ -557,7 +557,135 @@
                     <type>0</type>
                     <item>
                         <host>Template AWS SQS</host>
-                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesVisible&quot;,&quot;--queuename&quot;,&quot;{HOST.HOST}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesVisible&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>ApproximateNumberOfMessagesNotVisible</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template AWS SQS</host>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateNumberOfMessagesNotVisible&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>NumberOfMessagesReceived</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template AWS SQS</host>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesReceived&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>ApproximateAgeOfOldestMessage</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template AWS SQS</host>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;ApproximateAgeOfOldestMessage&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>NumberOfMessagesDeleted</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>0</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template AWS SQS</host>
+                        <key>sqs_stats.py[&quot;--metric&quot;,&quot;NumberOfMessagesDeleted&quot;,&quot;--queuename&quot;,&quot;{$QUEUENAME}&quot;,&quot;--access-key-id&quot;,&quot;{$AWS_ACCESS_KEY}&quot;,&quot;--secret_access_key&quot;,&quot;{$AWS_SECRET_KEY}&quot;,&quot;--region&quot;,&quot;{$REGION}&quot;]</key>
                     </item>
                 </graph_item>
             </graph_items>
