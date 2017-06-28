@@ -1,0 +1,11 @@
+---
+- hosts: '{{ target }}'
+  become: yes
+  tasks:
+    - name: Install boto3 python module
+      pip: name=boto3
+    - name: Send the sqs_stats.py file
+      copy:
+        src: ./sqs_stats.py
+        dest: /usr/lib/zabbix/externalscripts/sqs_stats.py
+        mode: 0755
