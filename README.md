@@ -43,4 +43,4 @@ PLAY RECAP *********************************************************************
 zabbix                     : ok=3    changed=2    unreachable=0    failed=0
 ```
 
-The last step to do for having the template working is to import the template hinself to your zabbix server.
+The last step to do for having the template working is to import the template himself to your zabbix server.
