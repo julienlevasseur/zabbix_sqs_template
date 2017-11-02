@@ -44,3 +44,36 @@ zabbix                     : ok=3    changed=2    unreachable=0    failed=0
 ```
 
 The last step to do for having the template working is to import the template himself to your zabbix server.
+This can be done with [util_zabbix chef cookbook](https://github.com/julienlevasseur/util_zabbix) :
+
+```ruby
+# This cookbook file is the template in its XML format
+
+cookbook_file '/tmp/zabbix_template_test.xml' do
+  source 'zabbix_template_test.xml'
+  owner 'root'
+  group 'root'
+  mode '0644'
+  action :create
+end
+
+rules = {
+  templates: {
+    createMissing: true,
+    updateExisting: true
+  },
+  items: {
+    createMissing: true,
+    updateExisting: true
+  }
+}
+
+# Creation
+
+util_zabbix_configuration 'config_test' do
+  rules rules
+  source lazy { ::File.open('/tmp/zabbix_template_test.xml', 'rb').read }
+  not_if {template_exists?('Template TEST Configuration')}
+end
+```
+
