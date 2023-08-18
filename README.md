@@ -23,7 +23,7 @@ Each queue is considered as a host.
 
 # Installation on the Zabbix server
 
-This template come with a playbook to install the dependencies (boto3 python module & sqs_stats.py) on the zabbix server :
+This template comes with a playbook to install the dependencies (boto3 python module & sqs_stats.py) on the zabbix server :
 
 ```bash
 ansible-playbook installation_playbook.yml --extra-vars "target=$host"
@@ -43,7 +43,7 @@ PLAY RECAP *********************************************************************
 zabbix                     : ok=3    changed=2    unreachable=0    failed=0
 ```
 
-The last step to do for having the template working is to import the template hitself to your zabbix server.
+The last step to do for having the template working is to import the template itself to your zabbix server.
 This can be done with [util_zabbix chef cookbook](https://github.com/julienlevasseur/util_zabbix) :
 
 ```ruby
